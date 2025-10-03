@@ -36,7 +36,18 @@ label start:
     play music "city.mp3"
 
 
-    show conductor at normal_size
+    # Define your image
+image kombi = "kombi.png"
+
+# When you want to show it:
+label start:
+    scene bg room
+    show kombi at truecenter
+    with dissolve
+
+    "You chose to go to Mbare Market. The kombi is lively with vendors."
+
+    return
     "Conductor: Hey there! Ready to get on the kombi?"
 
     menu:
