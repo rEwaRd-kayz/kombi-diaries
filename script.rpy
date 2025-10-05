@@ -99,8 +99,8 @@ label end_trip:
     menu:
         "Mbare Market":
             jump mbare_route
-        "Avondale Shopping Centre":
-            jump avondale_route
+        "Chitungwiza":
+            jump chitungwiza_route
         "University of Zimbabwe":
             jump uz_route
 
@@ -109,9 +109,9 @@ label mbare_route:
     "You chose to go to Mbare Market. The kombi is lively with vendors."
     jump random_event
 
-label avondale_route:
+label chitungwiza_route:
     scene bg kombi_inside
-    "You chose Avondale Shopping Centre. The ride is calm and you see the city pass by."
+    "You chose chitungwiza. The ride is calm and you see the city pass by."
     jump random_event
 
 label uz_route:
